@@ -18,5 +18,9 @@ cache:
 services:
   - docker
 
+env:
+  - DOCKER_IMAGE=jkrajnc11/products-service
+  - docker build -t "$DOCKER_IMAGE" .
+
 script:
   - mvn clean install -U
