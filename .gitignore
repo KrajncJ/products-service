@@ -1,0 +1,5 @@
+.idea/
+v1/lib/target/
+v1/api/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst
+v1/api/target/
+*.iml
