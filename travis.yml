@@ -1,0 +1,7 @@
+language: java
+
+services:
+  - docker
+
+script:
+  - mvn clean install -U
