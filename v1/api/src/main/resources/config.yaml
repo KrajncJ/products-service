@@ -1,0 +1,9 @@
+kumuluzee:
+  name: products-service
+  version: ${project.version}
+  env:
+    name: dev
+  server:
+    #     **** If IDEA debugging (base-url, context-path)
+    base-url: http://localhost:8080/v1
+
